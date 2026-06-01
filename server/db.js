@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const dbDir = path.join(__dirname, 'data');
+const isProduction = process.env.NODE_ENV === 'production';
+const dbDir = isProduction ? '/tmp' : path.join(__dirname, 'data');
 const dbPath = path.join(dbDir, 'db.json');
 
 const initDB = () => {
