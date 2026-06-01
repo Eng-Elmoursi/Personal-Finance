@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "_id": "4vgn5upg5",
+      "fullName": "Body",
+      "email": "body.moursi.rakha@gmail.com",
+      "password": "$2b$10$tuEizO494HJEhjBq4sKeDuxxRdyqKbwZ2sKjEDraWDHyB0ABpvdQS",
+      "createdAt": "2026-06-01T19:36:31.661Z"
+    }
+  ],
+  "transactions": [
+    {
+      "_id": "9at0qb7wy",
+      "userId": "4vgn5upg5",
+      "type": "income",
+      "amount": 8000,
+      "category": "Salary",
+      "description": "Salary ",
+      "date": "2026-06-01T19:37:12.589Z",
+      "createdAt": "2026-06-01T19:37:12.589Z"
+    },
+    {
+      "_id": "6yvg67cxp",
+      "userId": "4vgn5upg5",
+      "type": "income",
+      "amount": 300,
+      "category": "Investments",
+      "description": "Investments",
+      "date": "2026-06-01T19:37:41.845Z",
+      "createdAt": "2026-06-01T19:37:41.845Z"
+    },
+    {
+      "_id": "n9u1nk74t",
+      "userId": "4vgn5upg5",
+      "type": "expense",
+      "amount": 1100,
+      "category": "Transportation",
+      "description": "Transportation",
+      "date": "2026-06-01T19:43:46.113Z",
+      "createdAt": "2026-06-01T19:43:46.113Z"
+    },
+    {
+      "_id": "z12oz8vz8",
+      "userId": "4vgn5upg5",
+      "type": "expense",
+      "amount": 1000,
+      "category": "Healthcare",
+      "description": "Healthcare",
+      "date": "2026-06-01T20:08:46.293Z",
+      "createdAt": "2026-06-01T20:08:46.293Z"
+    }
+  ],
+  "budgets": [],
+  "goals": []
+}
